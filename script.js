@@ -8,11 +8,16 @@ document.getElementById('celebrate-button').addEventListener('click', function()
         emoji.textContent = '🎉';
         emoji.style.left = Math.random() * 100 + 'vw';
         emoji.style.top = Math.random() * 100 + 'vh';
-        emoji.style.animationDuration = Math.random() * 2 + 3 + 's';
+        emoji.style.animationDuration = Math.random() * 1 + 1 + 's';
         celebrationDiv.appendChild(emoji);
     }
 
     // Play the wedding song
     const weddingSong = document.getElementById('wedding-song');
     weddingSong.play();
+
+    // Remove emojis after 2 seconds
+    setTimeout(() => {
+        celebrationDiv.innerHTML = '';
+    }, 2000);
 });

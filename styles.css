@@ -15,7 +15,6 @@ body {
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: relative;
 }
 
 h1 {
@@ -30,15 +29,10 @@ h1 {
     margin: 20px 0;
 }
 
-.wish-display {
-    width: 80%;
-    padding: 10px;
-    font-size: 1.5em;
-    border: 2px solid #d3c0b4;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    background-color: #fff;
-    color: black;
+#wish {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
 }
 
 button {
@@ -74,7 +68,7 @@ audio {
 .emoji {
     position: absolute;
     font-size: 2rem;
-    animation: float 5s ease-in-out infinite;
+    animation: float 2s ease-in-out;
 }
 
 @keyframes float {
