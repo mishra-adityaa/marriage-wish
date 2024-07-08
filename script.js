@@ -11,4 +11,8 @@ document.getElementById('celebrate-button').addEventListener('click', function()
         emoji.style.animationDuration = Math.random() * 2 + 3 + 's';
         celebrationDiv.appendChild(emoji);
     }
+
+    // Play the wedding song
+    const weddingSong = document.getElementById('wedding-song');
+    weddingSong.play();
 });

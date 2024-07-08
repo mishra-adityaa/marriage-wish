@@ -48,10 +48,17 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 button:hover {
     background-color: #ff4c39;
+}
+
+audio {
+    margin-top: 10px;
+    width: 80%;
+    max-width: 400px;
 }
 
 #celebration {
