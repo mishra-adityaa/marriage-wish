@@ -32,25 +32,13 @@ h1 {
 
 .wish-display {
     width: 80%;
-    height: 100px;
     padding: 10px;
-    font-size: 1em;
+    font-size: 1.5em;
     border: 2px solid #d3c0b4;
     border-radius: 10px;
     margin-bottom: 10px;
     background-color: #fff;
-    display: none;
-}
-
-textarea {
-    width: 80%;
-    height: 100px;
-    padding: 10px;
-    font-size: 1em;
-    border: 2px solid #d3c0b4;
-    border-radius: 10px;
-    resize: none;
-    margin-bottom: 10px;
+    color: black;
 }
 
 button {

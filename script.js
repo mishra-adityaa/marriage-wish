@@ -1,12 +1,3 @@
-document.getElementById('save-wish-button').addEventListener('click', function() {
-    const wishBox = document.getElementById('wish-box');
-    const wishDisplay = document.getElementById('wish-display');
-    wishDisplay.textContent = wishBox.value;
-    wishBox.style.display = 'none';
-    wishDisplay.style.display = 'block';
-    document.getElementById('save-wish-button').style.display = 'none';
-});
-
 document.getElementById('celebrate-button').addEventListener('click', function() {
     const celebrationDiv = document.getElementById('celebration');
     celebrationDiv.innerHTML = ''; // Clear any existing emojis
